@@ -2,11 +2,12 @@ package webdav
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/parkomat/parkomat/config"
-	"golang.org/x/net/webdav"
 	"net/http"
 	"path/filepath"
+
+	log "github.com/Sirupsen/logrus"
+	"golang.org/x/net/webdav"
+	"luckyzune.com/yqbit/parkomat/config"
 )
 
 type WebDav struct {

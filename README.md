@@ -22,7 +22,7 @@ Parkomat at the moment doesn't provide pre-built binaries, so you need to have G
 To build, issue:
 
 ```
-go get github.com/parkomat/parkomat
+go get luckyzune.com/yqbit/parkomat
 ```
 
 ### Setting up

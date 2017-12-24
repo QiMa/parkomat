@@ -2,10 +2,11 @@ package dns
 
 import (
 	"fmt"
+	"time"
+
 	log "github.com/Sirupsen/logrus"
 	mdns "github.com/miekg/dns"
-	"github.com/parkomat/parkomat/config"
-	"time"
+	"luckyzune.com/yqbit/parkomat/config"
 )
 
 type queryHandler interface {

@@ -2,9 +2,10 @@ package dns
 
 import (
 	"fmt"
-	mdns "github.com/miekg/dns"
-	"github.com/parkomat/parkomat/config"
 	"strings"
+
+	mdns "github.com/miekg/dns"
+	"luckyzune.com/yqbit/parkomat/config"
 )
 
 type soaHandler struct {

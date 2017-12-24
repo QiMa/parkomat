@@ -2,14 +2,15 @@ package main
 
 import (
 	"flag"
-	log "github.com/Sirupsen/logrus"
-	"github.com/parkomat/parkomat/config"
-	"github.com/parkomat/parkomat/dns"
-	"github.com/parkomat/parkomat/web"
-	"github.com/parkomat/parkomat/webdav"
 	"os"
 	"strconv"
 	"sync"
+
+	log "github.com/Sirupsen/logrus"
+	"luckyzune.com/yqbit/parkomat/config"
+	"luckyzune.com/yqbit/parkomat/dns"
+	"luckyzune.com/yqbit/parkomat/web"
+	"luckyzune.com/yqbit/parkomat/webdav"
 )
 
 func main() {

@@ -1,10 +1,11 @@
 package dns
 
 import (
-	mdns "github.com/miekg/dns"
-	"github.com/parkomat/parkomat/config"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	mdns "github.com/miekg/dns"
+	"github.com/stretchr/testify/assert"
+	"luckyzune.com/yqbit/parkomat/config"
 )
 
 func TestNSHandle(t *testing.T) {
